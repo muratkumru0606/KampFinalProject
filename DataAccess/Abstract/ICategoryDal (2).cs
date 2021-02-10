@@ -8,6 +8,7 @@ namespace DataAccess.Abstract
 {
     public interface ICategoryDal:IEntityRepository<Category>
     {
-       
+        public int asd { get; set; }
+
     }
 }
